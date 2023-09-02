@@ -1,0 +1,120 @@
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    border-radius: 30px;
+    background-image: linear-gradient(
+            to bottom,
+            hsl(252, 100%, 67%),
+            hsl(241, 81%, 54%));
+}
+
+.top-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin: 6% 0;
+}
+
+.top {
+    color: #c2c2c2;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.left-panel-middle {
+    background-image: linear-gradient(
+            to bottom,
+            hsla(256, 72%, 46%, 1),
+            hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+}
+
+.score {
+    font-weight: 900;
+    font-size: 75px;
+    margin: 0;
+    color: white;
+}
+
+.percentage {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    color: #c2c2c2;
+}
+
+.left-panel-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 15px 0 0 0;
+}
+
+.commendation {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 10px 0 0 0;
+}
+
+.rating {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 30px 0;
+    color: #c2c2c2;
+    font-weight: 700;
+    width: 210px;
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .left-panel {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        height: 80%;
+    }
+    
+    .top {
+        font-size: 15px;
+    }
+    
+    .left-panel-middle {
+        height: 170px;
+        width: 105px;
+    }
+
+    .score {
+        font-size: 40px;
+    }
+    
+    .percentage {
+        font-size: 10px;
+    }
+
+    .left-panel-bottom {
+        margin: 0 0 0 0;
+    }
+
+    .commendation {
+        font-size: 18px;
+    }
+
+    .rating {
+        width: 206px;
+        font-size: 11px;
+        margin: 8px 0 30px 0;
+    }
+}

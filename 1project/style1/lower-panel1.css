@@ -1,0 +1,43 @@
+.right-panel-lower {
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continue {
+    font-weight: 900;
+    font-size: 17px;
+    padding: 15px 105px;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    cursor: pointer;
+}
+
+.continue:active {
+    background-image: linear-gradient(
+            to bottom,
+            hsl(252, 100%, 67%),
+            hsl(241, 81%, 54%));
+}
+
+.continue:hover {
+    background-image: linear-gradient(
+            to bottom,
+            hsl(252, 100%, 67%),
+            hsl(241, 81%, 54%));
+}
+
+
+@media screen and (max-width: 375px) {
+    .right-panel-lower {
+        margin: 20px 0 20px 0;
+    }
+
+    .continue {
+        font-size: 13px;
+        padding: 10px 80px;
+    }
+}

@@ -1,0 +1,137 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.whole-content {
+    height: 500px;
+    width: 700px;
+    border-radius: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 20px 20px 60px hsl(240, 100%, 93%);
+    margin: 50px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .whole-content {
+        height: auto;
+        grid-template-columns: 1fr;
+        border-radius: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media screen and (max-width: 375px) {
+    .whole-content {
+        grid-template-columns: 1fr;
+        border: 1px solid red;
+        height: 100%;
+    }
+
+    .left-panel {
+        border-radius: 0 0 5vw 5vw;
+    }
+
+    .left-panel-middle {
+        height: 70px;
+        width: 25%;
+    }
+}
+*/
+
+
+/*
+@media (min-width: 1440px) and (max-width: 1440px) {
+    .whole-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .right-panel {
+        display: flex;
+        align-items: center;
+        border-radius: 0;
+    }
+    .reaction-container,
+    .memory-container,
+    .verbal-container,
+    .visual-container {
+        margin: 0;
+    }
+    .right-panel-upper {
+        margin: 0;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 1439px){
+    .whole-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .whole-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: 0 0 0 0 white;
+        border-radius: 0 0 50px 50px;
+    }
+
+    .right-panel-upper {
+        margin: 0;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+
+    }
+    .right-panel {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .left-panel {
+        height: 80px;
+        width: 600px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+    .summary {
+        margin: 0;
+    }
+}
+
+ */
+
